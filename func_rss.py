@@ -20,7 +20,6 @@ def func_rss(message, context):
         response["Error"] = e
     return response
 
-#
 # def func_rss(event, context):
 #     print('hello form func rss')
 #     return "hello return from rss"

@@ -13,11 +13,6 @@ def lambda_jobs_get_all(event, context):
     for item in resp['Items']:
         records.append(item)
 
-    # body = {
-    #     "message": "Go Serverless v1.0! Your function executed successfully!",
-    #     "input": event
-    # }
-
     response = {
         # "isBase64Encoded": 1,
         "statusCode": 200,

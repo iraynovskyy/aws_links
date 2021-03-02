@@ -1,10 +1,5 @@
 import json
 import os
-import time
-from datetime import datetime
-import logging
-import uuid
-import boto3
 
 
 def func_twitter(event, context):

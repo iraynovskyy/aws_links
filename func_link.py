@@ -104,4 +104,4 @@ def lambda_handler(event, context):
         # )
         response.append(job_id)
 
-    return {"idList": response}
+    return {"Jobs_Id": response}
